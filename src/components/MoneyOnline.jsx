@@ -112,7 +112,7 @@ const handleClick = ()=>{
         </div>
         <button className= {styles.button} onClick={handleClick} >Get Started!</button>
 
-                       {/* here im importing footer  */}
+
 
                      
       </>

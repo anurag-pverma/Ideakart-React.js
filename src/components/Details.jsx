@@ -4,7 +4,7 @@ import { FaCartPlus,FaListUl } from 'react-icons/fa';
 import styled from 'styled-components';
 
 
-// keep the add to cart component here
+
 const Detl=styled.div`
 display:flex;
 justify-content:space-around;

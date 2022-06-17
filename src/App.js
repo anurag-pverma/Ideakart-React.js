@@ -49,49 +49,12 @@ function App() {
         <Navbar />
         <Routes>
         <Route path="/final*" element={<Final />} />
-            
-      {/* <Control>
-      <Dashboard/>
-      <MainRoute/>
-      </Control> */}
-    
-    {/* <Control> */}
-    {/* <Control> */}
-    {/* <Routes> */}
-    {/* <Route path="/dashboard" element={<Dashboard/>}/>
-    <Route path="/dashboard/home" element={<Home/>}/>
-    <Route path="/dashboard/newproduct" element ={<NewProduct/>}/>
-    <Route path="/dashboard/products" element={<Products/>}/>
-    <Route path="/dashboard/credits" element={<Credits/>}/> */}
-    {/* </Control>  */}
-    {/* </Routes> */}
-    {/* </Control> */}
-{/* 
-    </Routes>
-
-
-
-<Route path="/dashboard/home" element={<Home/>}/>
-    <Route path="/dashboard/newproduct" element ={<NewProduct/>}/>
-    <Route path="/dashboard/products" element={<Products/>}/>
-    <Route path="/dashboard/credits" element={<Credits/>}/>
-
-
-
-    <Routes> */}
-
-
-      {/* <Route path="/" element={<Homedata/>}/> */}
+          
       <Route path="/dashboard/home" element={<Home/>}/>
     <Route path="/dashboard/newproduct" element ={<NewProduct/>}/>
     <Route path="/dashboard/products" element={<Products/>}/>
     <Route path="/dashboard/credits" element={<Credits/>}/>
      <Route path="/:id" element={<Productdetail/>}/> 
-
-
-
-
-
 
           <Route path="/" element={<Homedata />} />
           <Route path="/about" element={<About />} />
@@ -99,26 +62,11 @@ function App() {
           <Route path="/accountinfo" element={<AccountInfo />} />
           <Route path="/Notification" element={<Notification />} />
 
-
-
-
-
-
           <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
           <Route path="/RefundPolicy" element={<RefundPolicy />} />
           <Route path="/Search" element={<Search/>} />
           <Route path="/MoneyOnline" element={<MoneyOnline />} />
           
-
-
-
-
-
-
-
-
-
-         
           <Route path="/signup" element={<SignUp />} />
           <Route path="/login" element={<Login />} />
           <Route path="/logged-in" element={<LoggedIn />} />
